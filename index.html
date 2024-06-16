@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Ayad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+
+    <!-- Why are you looking at the code? Is there any problem? -->
+
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <audio control autoplay loop src="https://www.youtube.com/watch?v=8NoNFPdFtH8"></audio>
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                    Hello, I'm</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Ayad
+                    a passionate Frontend developer from Northern Iraq ( Kurdistan )</p>
+                <div style="transform: translateY(-20px);" class="flex justify-left space-x-2 sm:mt-0">
+                    <a id="lang-switch" class="cursor-pointer hover:text-white text-gray-400">
+                        <i class="fa-solid fa-language"></i>
+                    </a>
+                    <a target="_blank" href="https://tailwindcss.com/" class="hover:text-white text-gray-400">
+                        <i class='bx bxl-tailwind-css' ></i>
+                    </a>
+                    <a target="_blank" href="https://www.w3.org/" class="hover:text-white text-gray-400">
+                        <i class='bx bxl-css3' ></i>
+                    </a>
+                    <a target="_blank" href="https://html.com/" class="hover:text-white text-gray-400">
+                        <i class='bx bxl-html5' ></i>
+                    </a>
+                    <a target="_blank" href="https://www.javascript.com/" class="hover:text-white text-gray-400">
+                        <i class='bx bxl-javascript' ></i>
+                    </a>
+                    <a target="_blank" href="https://www.typescriptlang.org/" class="hover:text-white text-gray-400">
+                        <i class='bx bxl-typescript' ></i>
+                    </a>
+                    <a target="_blank" href="https://www.php.net/" class="hover:text-white text-gray-400">
+                        <i class='bx bxl-php' ></i>
+                    </a>
+                    <a target="_blank" href="https://vitejs.dev/" class="hover:text-white text-gray-400">
+                        <i class='bx bxl-vuejs' ></i>
+                    </a>
+                </div>
+                <a href="#" onclick="togglePopup()"
+                    class="shadow-lg inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#4d7c0f] hover:bg-[#3f6212] focus:ring-4 focus:ring-[#bef264] dark:focus:ring-[#365314]">
+                    Contact Me
+                </a>
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex w-72 h-72 ml-auto">
+                <img class="rounded-full shadow-2xl" src="https://previews.dropbox.com/p/thumb/ACQAXUL7dL16j0RxGOm6go_cxkEfEoXjKvRjhHtP7gbGgaXrIjDQV9FX1LONU-xprM3-uac1k4y0FTVp_x7WOnvZH7XaY7k2Fv6DBLazqpfIFASn6ay_e7KD9l0w7hhn_sNiDAdxdq1bhcsDaM3lfdjDkgFOAAu2rCQfHjERBhZKc8UC6WyaSVFnjCA5nD-e-u3uROEF-U7GxteCR53Yk7Xw3uB6Ci75LdzQHsC_2VYcsjKpp-TJrFY07I7iD0JTuMQisStzHSaYm96MwnhGNeKTgqNpcR73KKJowICS5rKoMnivPRdGZpgjJoErp8mJX5wZ4eAX40SnQIbH0wUK2ytg/p.jpeg" alt="mockup">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">My
+                    Projects</h2>
+                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">I work on multiple projects, some in
+                    free-time, some that I want</p>
+            </div>
+            <div class="grid gap-8 lg:grid-cols-2">
+                <article
+                    class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                            Pterodactyl
+                        </span>
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">FlexaCP</h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Flexa is a high-performance client area
+                        for the Pterodactyl Panel. It allows your users to create, edit and delete servers, and also
+                        earn coins which can be used to upgrade their servers.</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center space-x-4">
+                            <img class="w-7 h-7 rounded-full" src="https://previews.dropbox.com/p/thumb/ACQAXUL7dL16j0RxGOm6go_cxkEfEoXjKvRjhHtP7gbGgaXrIjDQV9FX1LONU-xprM3-uac1k4y0FTVp_x7WOnvZH7XaY7k2Fv6DBLazqpfIFASn6ay_e7KD9l0w7hhn_sNiDAdxdq1bhcsDaM3lfdjDkgFOAAu2rCQfHjERBhZKc8UC6WyaSVFnjCA5nD-e-u3uROEF-U7GxteCR53Yk7Xw3uB6Ci75LdzQHsC_2VYcsjKpp-TJrFY07I7iD0JTuMQisStzHSaYm96MwnhGNeKTgqNpcR73KKJowICS5rKoMnivPRdGZpgjJoErp8mJX5wZ4eAX40SnQIbH0wUK2ytg/p.jpeg" alt="" />
+                            <span class="font-medium dark:text-white">
+                            Ayad
+                            </span>
+                        </div>
+                        <a target="_blank" href="https://github.com/Pterify/FlexaCP"
+                            class="inline-flex items-center justify-center px-5 py-1 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#4d7c0f] hover:bg-[#3f6212] focus:ring-4 focus:ring-[#bef264] dark:focus:ring-[#365314]">
+                            Website
+                        </a>
+                    </div>
+                </article>
+                <article
+                    class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                            NovaNode
+                        </span>
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">NovaNode</h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Empowering powerful cloud performance
+                        for Game servers worldwide. Perfect for new and experienced owners, as well as developers across
+                        continents.</p> <br>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center space-x-4">
+                            <img class="w-7 h-7 rounded-full" src="https://previews.dropbox.com/p/thumb/ACQAXUL7dL16j0RxGOm6go_cxkEfEoXjKvRjhHtP7gbGgaXrIjDQV9FX1LONU-xprM3-uac1k4y0FTVp_x7WOnvZH7XaY7k2Fv6DBLazqpfIFASn6ay_e7KD9l0w7hhn_sNiDAdxdq1bhcsDaM3lfdjDkgFOAAu2rCQfHjERBhZKc8UC6WyaSVFnjCA5nD-e-u3uROEF-U7GxteCR53Yk7Xw3uB6Ci75LdzQHsC_2VYcsjKpp-TJrFY07I7iD0JTuMQisStzHSaYm96MwnhGNeKTgqNpcR73KKJowICS5rKoMnivPRdGZpgjJoErp8mJX5wZ4eAX40SnQIbH0wUK2ytg/p.jpeg" alt="" />
+                            <span class="font-medium dark:text-white">
+                            Ayad
+                            </span>
+                        </div>
+                        <a target="_blank" href="https://novanode.pro"
+                            class="inline-flex items-center justify-center px-5 py-1 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#4d7c0f] hover:bg-[#3f6212] focus:ring-4 focus:ring-[#bef264] dark:focus:ring-[#365314]">
+                            Website
+                        </a>
+                    </div>
+                </article>
+                <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex justify-between items-center mb-5 text-gray-500">
+                        <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                                            Xaa
+                                        </span>
+                    </div>
+                    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Xaa.icu</h2>
+                    <p class="mb-5 font-light text-gray-500 dark:text-gray-400">^_-</p> <br>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center space-x-4">
+                            <img class="w-7 h-7 rounded-full" src="https://elastic-cloud.xaa.icu/secure/file/aQ2WVGrBGkx7y" alt="" />
+                            <span class="font-medium dark:text-white">
+                                            Ayad
+                                            </span>
+                        </div>
+                        <a target="_blank" href="https://xaa.icu"
+                            class="inline-flex items-center justify-center px-5 py-1 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#4d7c0f] hover:bg-[#3f6212] focus:ring-4 focus:ring-[#bef264] dark:focus:ring-[#365314]">
+                            Website
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="p-6 bg-gray-950">
+        <div class="mx-auto max-w-screen-xl text-center">
+            <div class="sm:items-center sm:justify-between sm:flex">
+                <span class="block text-sm text-gray-400"><span data-key="made" class="lang"></span>
+                <span data-key="and" class="lang"></span>
+                <a class="hover:underline hover:decoration-dotted" href="https://tailwindcss.com"
+                    target="_blank">TailwindCSS |</a>
+                <a class="hover:underline hover:decoration-dotted" href="https://xaa.icu" target="_blank">Xaa.icu</a></span>
+                <div class="flex justify-center mt-4 space-x-6 sm:mt-0">
+                    <a id="lang-switch" class="cursor-pointer hover:text-white text-gray-400">
+                        <i class="fa-solid fa-language"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/ayadshkur100221" class="hover:text-white text-gray-400">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCtheEFsNoMBH1t-Kn54-QDQ"
+                        class="hover:text-white text-gray-400">
+                        <i class='bx bxl-youtube' ></i>
+                    </a>
+                    <a target="_blank" href="https://www.paypal.com/paypalme/xenoh0st"
+                        class="hover:text-white text-gray-400">
+                        <i class='bx bxl-paypal' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1 class="text-white font-bold text-2xl">Contact Me 💌</h1>
+            <br>
+            <br>
+            <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <span class="bg-[#4b5563] text-white px-4 py-2 rounded-md">Email: ayadshkur100@proton.me</span></dd>
+            <br>
+            <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <span class="bg-[#4b5563] text-white px-4 py-2 rounded-md">Discord: .ayad.1</span></dd>
+            <br>
+
+        </div>
+    </div>
+
+    <style>
+        .popup .overlay {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+            display: none;
+        }
+
+        .popup .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            background: #111827;
+            border-radius: 10px;
+            width: 450px;
+            height: 220px;
+            z-index: 2;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .popup .close-btn {
+            cursor: pointer;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+            background: #4d7c0f;
+            color: #fff;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 20%;
+        }
+
+        .popup.active .overlay {
+            display: block;
+        }
+
+        .popup.active .content {
+            transition: all 300ms ease-in-out;
+            transform: translate(-50%, -50%) scale(1);
+        }
+    </style>
+
+    <script>
+        function togglePopup(){
+        document.getElementById("popup-1").classList.toggle("active");
+    }
+    </script>
+
+
+
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+            background: #111827;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #4b5563;
+            border-radius: 5px;
+        }
+    </style>
+
+</body>
+
+</html>
